@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="../emojiselector.css">
+  <link rel="stylesheet" href="../node_modules/emojione/assets/css/emojione.css">
+  <link rel="stylesheet" href="../node_modules/emojione/assets/sprites/emojione.sprites.css">
+</head>
+<body>
+
+  <input name="target" type="text" />
+
+  <div id="emojione" class="emojiselector">
+    <div class="emojiselector-filters"></div>
+    <div class="emojiselector-tabs"></div>
+  </div>
+
+
+  <script src="../node_modules/emojione/lib/js/emojione.js"></script>
+  <script src="../emojiselector.js"></script>
+  <script>
+
+    var emojiselector1 = new EmojiSelector(document.getElementById('emojione'), {
+      target: document.querySelector('[name=target]'),
+      sprite: true
+    });
+
+
+  </script>
+</body>
+</html>

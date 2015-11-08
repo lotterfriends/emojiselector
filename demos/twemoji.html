@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="../emojiselector.css">
+</head>
+<body>
+
+  <input name="target" type="text" />
+
+  <div id="twemoji" class="emojiselector">
+    <div class="emojiselector-filters"></div>
+    <div class="emojiselector-tabs"></div>
+  </div>
+
+ 
+  <script src="../node_modules/emojione/lib/js/emojione.js"></script>
+  <script src="../emojiselector.js"></script>
+  <script>
+    
+    var emojiselector = new EmojiSelector(document.getElementById('twemoji'), {
+      target: document.querySelector('[name=target]'),
+      sprite: false,
+      namesUppercase: false,
+      imagePathPNG: '../twemoji/36x36/'
+    });
+    
+  </script>
+</body>
+</html>
