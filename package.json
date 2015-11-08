@@ -6,7 +6,7 @@
   "scripts": {
     "get-gemoji": "git clone https://github.com/github/gemoji.git",
     "get-twemoji": "git clone https://github.com/twitter/twemoji",
-    "get-emojione": "npm install emojione"
+    "get-emojione": "git clone https://github.com/Ranks/emojione.git"
   },
   "repository": {
     "type": "git",
