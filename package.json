@@ -23,6 +23,5 @@
   },
   "homepage": "https://github.com/lotterfriends/emojiselector#readme",
   "dependencies": {
-    "emojione": "^1.5.1"
   }
 }
