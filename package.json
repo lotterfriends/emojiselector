@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "get-gemoji": "git clone https://github.com/github/gemoji.git",
-    "get-twemoji": "git clone https://github.com/twitter/twemoji",
-    "get-emojione": "git clone https://github.com/Ranks/emojione"
+    "get-twemoji": "git clone https://github.com/twitter/twemoji.git",
+    "get-emojione": "git clone https://github.com/Ranks/emojione.git",
+    "get-emojidata": "git clone https://github.com/iamcal/emoji-data.git"
   },
   "repository": {
     "type": "git",
