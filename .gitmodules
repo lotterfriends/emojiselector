@@ -1,0 +1,11 @@
+[submodule "emojione"]
+    path = emojione
+    url = https://github.com/Ranks/emojione.git
+
+[submodule "twemoji"]
+    path = twemoji
+    url = https://github.com/twitter/twemoji
+
+[submodule "gemoji"]
+    path = gemoji
+    url = https://github.com/github/gemoji.git

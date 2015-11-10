@@ -6,7 +6,7 @@
   "scripts": {
     "get-gemoji": "git clone https://github.com/github/gemoji.git",
     "get-twemoji": "git clone https://github.com/twitter/twemoji",
-    "get-emojione": "npm install emojione"
+    "get-emojione": "git clone https://github.com/Ranks/emojione"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/lotterfriends/emojiselector/issues"
   },
-  "homepage": "https://github.com/lotterfriends/emojiselector#readme",
-  "dependencies": {
-    "emojione": "^1.5.1"
-  }
+  "homepage": "https://github.com/lotterfriends/emojiselector#readme"
 }
